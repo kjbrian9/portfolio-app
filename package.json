@@ -1,7 +1,7 @@
 {
   "name": "portfolio-app",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "https://kjbrian9.github.io/portfolio-app/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
