@@ -1,0 +1,52 @@
+.header {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  color: white;
+  height: 10vh;
+  width: 100vw;
+  z-index: 100;
+  background: rgb(255, 255, 255);
+  box-shadow: 1px 1px 5px rgb(173, 173, 173);
+}
+
+.headerText {
+  margin-left: 1vw;
+  cursor: pointer;
+  font-family: 900;
+  text-decoration: none;
+  color: black;
+}
+
+.headerText:hover {
+  color: #5a1a58;
+}
+
+.contacts-button {
+  margin-right: 5vw;
+}
+
+@media (max-width: 760px) {
+  .header {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 10vh;
+    width: 100vw;
+    z-index: 100;
+    background: rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px rgb(173, 173, 173);
+  }
+  .headerText {
+    margin-left: 4vw;
+    cursor: pointer;
+    font-family: 900;
+    text-decoration: none;
+    color: black;
+  }
+}

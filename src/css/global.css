@@ -1,0 +1,147 @@
+body {
+  font-family: Poppins, Roboto, Arial;
+  font-weight: 600;
+  margin: 0;
+}
+
+.logo-small {
+  margin: 0.5vw;
+  width: 3vw;
+  transition: transform 1s ease;
+  cursor: pointer;
+}
+.logo-small:hover {
+  transform: translateY(-20%);
+  opacity: 0.8;
+}
+
+.page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  animation: body-fade-animation 1s;
+}
+@keyframes body-fade-animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.title {
+  font-size: 1.3rem;
+}
+
+.card,
+.button,
+.project-card {
+  padding: 1vw;
+  border-radius: 1vw;
+  box-shadow: 1px 1px 5px rgb(173, 173, 173);
+  margin: 1vw;
+  transition: transform 3s, box-shadow 3s;
+}
+
+.project-card {
+  min-height: 30rem;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(102%);
+  box-shadow: 1px 1px 30px rgb(173, 173, 173);
+  z-index: 50;
+}
+
+.button {
+  text-align: center;
+  border-radius: 20vw;
+  transition: transform 1s;
+}
+
+.button:hover {
+  transform: scale(110%);
+  z-index: 50;
+}
+
+.button-active {
+  color: white;
+  background-color: rgb(160, 97, 97);
+  background-image: linear-gradient(to right, rgb(253, 0, 0), rgb(155, 27, 108));
+}
+
+@media (max-width: 660px) {
+  .logo-small {
+    margin: 1vw;
+    width: 10vw;
+    transition: transform 1s ease;
+    cursor: pointer;
+  }
+
+  .logo-small:hover {
+    transform: translateY(-20%);
+    opacity: 0.8;
+  }
+
+  .project-card {
+    padding: 1vw;
+    border-radius: 1vw;
+    box-shadow: 1px 1px 5px rgb(173, 173, 173);
+    margin: 1vw;
+    transition: transform 3s, box-shadow 3s;
+  }
+
+  .project-card {
+    min-height: 30rem;
+  }
+
+  .card:hover {
+    transform: translateY(-10px) scale(102%);
+    box-shadow: 1px 1px 30px rgb(173, 173, 173);
+    z-index: 50;
+  }
+
+  .project-card {
+    padding: 1vw;
+    border-radius: 5vw;
+    box-shadow: 1px 1px 5px rgb(173, 173, 173);
+    margin: 5vw;
+    transition: transform 3s, box-shadow 3s;
+  }
+
+  .project-card {
+    min-height: 30rem;
+  }
+  .button {
+    padding: 1vw;
+    border-radius: 5vw;
+    width: 25vw;
+    box-shadow: 1px 1px 5px rgb(173, 173, 173);
+    margin: 1vw;
+    transition: transform 3s, box-shadow 3s;
+  }
+
+  .card {
+    padding: 1vw;
+    border-radius: 3vw;
+    box-shadow: 1px 1px 5px rgb(173, 173, 173);
+    margin: 2vw;
+    transition: transform 3s, box-shadow 3s;
+  }
+
+  @keyframes body-fade-animation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .page {
+    display: flex;
+    justify-content: center;
+    animation: body-fade-animation 1s;
+  }
+}

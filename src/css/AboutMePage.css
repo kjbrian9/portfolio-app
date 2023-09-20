@@ -1,0 +1,15 @@
+.about-me-div {
+  display: grid;
+  width: 60vw;
+  grid-template-columns: 1fr 1fr;
+  place-content: center;
+}
+
+@media (max-width: 660px) {
+  .about-me-div {
+    display: flex;
+    width: 60vw;
+    flex-direction: column;
+    place-content: center;
+  }
+}

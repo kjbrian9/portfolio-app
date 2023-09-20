@@ -1,0 +1,85 @@
+.button-div {
+  cursor: pointer;
+}
+
+.project-div {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  width: 50vw;
+}
+
+.project-div-animation {
+  animation: project-div-animation-appear 1s;
+}
+.button-div {
+  display: flex;
+  flex-direction: column;
+}
+.project-image {
+  border-radius: 20px;
+  width: 70%;
+  justify-self: center;
+}
+
+@keyframes project-div-animation-appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.title {
+  margin-left: 1vw;
+  margin-bottom: 2vw;
+  font-size: 1rem;
+}
+
+.description {
+  margin-top: 3vw;
+  margin-left: 1vw;
+  font-size: 1rem;
+}
+
+.project-page {
+  margin-top: 10vw;
+  display: flex;
+}
+
+.project-button:active {
+  background-color: black;
+}
+
+@media (max-width: 660px) {
+  .project-page {
+    margin-top: 10vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button-div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+  }
+  .title {
+    margin-left: 1vw;
+    margin-bottom: 2vw;
+    font-size: 1.5rem;
+    justify-self: center;
+  }
+
+  .project-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    width: 80vw;
+  }
+  .description {
+    margin-top: 3vw;
+    margin-left: 1vw;
+    font-size: 0.9rem;
+  }
+}

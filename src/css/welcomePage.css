@@ -1,0 +1,25 @@
+.welcome-page-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: welcome-div-animation 2s 1 ease-out;
+  animation-fill-mode: forwards;
+  margin-top: 30vh;
+  animation-delay: 1s;
+}
+
+@keyframes welcome-div-animation {
+  0% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(40vh);
+    opacity: 0;
+  }
+}
+.welcome-page-text {
+  display: flex;
+  justify-content: center;
+  font-size: 5rem;
+}
