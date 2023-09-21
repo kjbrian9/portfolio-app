@@ -31,7 +31,7 @@ function ProjectWindow({ isAnimated, projectIndex }: Props) {
     // <div className={isAnimated === true ? "project-div-animation project-div" : "project-div"}>
 
     <div className={isAnimated === true ? "project-div-animation project-div" : "project-div"}>
-      <p className="title">{titles[projectIndex]}</p>
+      <p className="project-title">{titles[projectIndex]}</p>
       <img className="project-image" src={images[projectIndex]}></img>
       <p className="description">{descriptions[projectIndex]}</p>
     </div>

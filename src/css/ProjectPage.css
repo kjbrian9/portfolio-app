@@ -31,7 +31,7 @@
   }
 }
 
-.title {
+.project-title {
   margin-left: 1vw;
   margin-bottom: 2vw;
   font-size: 1rem;
@@ -64,7 +64,9 @@
     flex-direction: row;
     margin-top: 2vh;
   }
-  .title {
+
+  .title,
+  .project-title {
     margin-left: 1vw;
     margin-bottom: 2vw;
     font-size: 1.5rem;

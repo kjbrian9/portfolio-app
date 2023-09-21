@@ -30,10 +30,6 @@ body {
   }
 }
 
-.title {
-  font-size: 1.3rem;
-}
-
 .card,
 .button,
 .project-card {
@@ -92,10 +88,6 @@ body {
     transition: transform 3s, box-shadow 3s;
   }
 
-  .project-card {
-    min-height: 30rem;
-  }
-
   .card:hover {
     transform: translateY(-10px) scale(102%);
     box-shadow: 1px 1px 30px rgb(173, 173, 173);
@@ -108,11 +100,9 @@ body {
     box-shadow: 1px 1px 5px rgb(173, 173, 173);
     margin: 5vw;
     transition: transform 3s, box-shadow 3s;
-  }
-
-  .project-card {
     min-height: 30rem;
   }
+
   .button {
     padding: 1vw;
     border-radius: 5vw;

@@ -37,8 +37,12 @@ function WebPage() {
                     </p>
                   </div>
                   <div className="logo-div">
-                    <Logo logoClass="logo-small" logoImage={LinkedInLogo}></Logo>
-                    <Logo logoClass="logo-small" logoImage={GithubLogo}></Logo>
+                    <Logo
+                      logoLink="https://www.linkedin.com/in/brian-julius-kiss-256680280/"
+                      logoClass="logo-small"
+                      logoImage={LinkedInLogo}
+                    ></Logo>
+                    <Logo logoLink="https://github.com/kjbrian9" logoClass="logo-small" logoImage={GithubLogo}></Logo>
                   </div>
                 </div>
               </>
@@ -62,8 +66,12 @@ function WebPage() {
               <p>Computer Science Graduate, Seeking Entry-Level Opportunities in Software Development</p>
             </Card>
             <Card>
-              <Logo logoClass="logo-small" logoImage={LinkedInLogo}></Logo>
-              <Logo logoClass="logo-small" logoImage={GithubLogo}></Logo>
+              <Logo
+                logoLink="https://www.linkedin.com/in/brian-julius-kiss-256680280/"
+                logoClass="logo-small"
+                logoImage={LinkedInLogo}
+              ></Logo>
+              <Logo logoLink="https://github.com/kjbrian9" logoClass="logo-small" logoImage={GithubLogo}></Logo>
             </Card>
           </div>
           <div>
