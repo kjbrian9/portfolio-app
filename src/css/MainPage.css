@@ -11,7 +11,9 @@
   display: flex;
   margin-right: 10vw;
 }
-
+.image-border-div {
+  position: relative;
+}
 .goal-text {
   font-size: 1.2rem;
   width: 35vw;
@@ -29,9 +31,84 @@
 }
 
 .goal-name-div {
-  margin-left: 5vh;
+  margin-left: 10vh;
   display: flex;
   flex-direction: column;
+}
+.circle-small {
+  stroke-width: 0.3vw;
+  stroke-dasharray: 100;
+  fill: transparent;
+  transform-origin: center;
+}
+
+.circle-medium {
+  stroke-width: 0.3vw;
+  stroke-dasharray: 150;
+  fill: transparent;
+  transform-origin: center;
+}
+
+.circle-large {
+  stroke-width: 0.3vw;
+  stroke-dasharray: 150;
+  fill: transparent;
+  transform-origin: center;
+}
+
+.circle-xlarge {
+  fill: transparent;
+  stroke-width: 0.3vw;
+  stroke-dasharray: 110;
+  transform-origin: center;
+  transition: r 1s;
+}
+
+.circle-xlarge:hover {
+  r: 14vw;
+  stroke-dasharray: 140;
+}
+.overlay-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: visible;
+  transform-origin: center;
+  animation: rotate-animation infinite 10s linear;
+}
+
+@keyframes rotate-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.overlay-div-opposite {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: visible;
+  transform-origin: center;
+  animation: rotate-animation-opposite infinite 20s linear;
+}
+
+@keyframes rotate-animation-opposite {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.svg-circle {
+  width: 18vw;
+  height: 18vw;
+  overflow: visible;
+  transform-origin: center;
 }
 
 @media (max-width: 660px) {
