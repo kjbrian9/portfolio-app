@@ -15,6 +15,7 @@ import LinkedInLogo from "./assets/linkedin-logo.webp";
 import { useState } from "react";
 import ProjectButton from "./components/ProjectButton";
 import { LEFT } from "phaser";
+import Circle from "./components/Circle";
 
 function WebPage() {
   const [imageIndex, setImageIndex] = useState(0);
@@ -31,76 +32,10 @@ function WebPage() {
               <>
                 <div className="image-border-div">
                   <img src={MeImage} className="me-image"></img>
-                  <div className="overlay-div">
-                    <svg className="svg-circle">
-                      <defs>
-                        <linearGradient id="myGradient">
-                          <stop offset="10%" stop-color="#5a1a58" />
-                          <stop offset="95%" stop-color="#c03131" />
-                        </linearGradient>
-                      </defs>
-                      <circle
-                        stroke="url('#myGradient')"
-                        className="circle-small"
-                        r={`${10}vw`}
-                        cx={`${9}vw`}
-                        cy={`${9}vw`}
-                      ></circle>
-                    </svg>
-                  </div>
-                  <div className="overlay-div-opposite">
-                    <svg className="svg-circle">
-                      <defs>
-                        <linearGradient id="myGradient">
-                          <stop offset="10%" stop-color="#5a1a58" />
-                          <stop offset="95%" stop-color="#c03131" />
-                        </linearGradient>
-                      </defs>
-                      <circle
-                        stroke="url('#myGradient')"
-                        className="circle-medium"
-                        r={`${10.5}vw`}
-                        cx={`${9}vw`}
-                        cy={`${9}vw`}
-                      ></circle>
-                    </svg>
-                  </div>
-
-                  <div className="overlay-div">
-                    <svg className="svg-circle">
-                      <defs>
-                        <linearGradient id="myGradient">
-                          <stop offset="10%" stop-color="#5a1a58" />
-                          <stop offset="95%" stop-color="#c03131" />
-                        </linearGradient>
-                      </defs>
-                      <circle
-                        stroke="url('#myGradient')"
-                        className="circle-large"
-                        r={`${11}vw`}
-                        cx={`${9}vw`}
-                        cy={`${9}vw`}
-                      ></circle>
-                    </svg>
-                  </div>
-                  <div className="overlay-div-opposite">
-                    <svg className="svg-circle">
-                      <defs>
-                        <linearGradient id="myGradient">
-                          <stop offset="10%" stop-color="#5a1a58" />
-                          <stop offset="95%" stop-color="#c03131" />
-                        </linearGradient>
-                      </defs>
-                      <circle
-                        stroke="url('#myGradient')"
-                        className="circle-xlarge"
-                        r={`${11.5}vw`}
-                        cx={`${9}vw`}
-                        cy={`${9}vw`}
-                      ></circle>
-                    </svg>
-                  </div>
-                  <div className="overlay-div"></div>
+                  <Circle scale={"1.1"} strokeDash={35} animationClass={"svg-circle-opposite"}></Circle>
+                  <Circle scale={"1.2"} strokeDash={20} animationClass={"svg-circle"}></Circle>
+                  <Circle scale={"1.3"} strokeDash={22} animationClass={"svg-circle-opposite"}></Circle>
+                  <Circle scale={"1.4"} strokeDash={15} animationClass={"svg-circle"}></Circle>
                 </div>
                 <div className="goal-logo-div">
                   <div className="goal-name-div">
