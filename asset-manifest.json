@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-app/static/css/main.57cce18e.css",
-    "main.js": "/portfolio-app/static/js/main.2d2b1cbd.js",
+    "main.css": "/portfolio-app/static/css/main.b7aa51b5.css",
+    "main.js": "/portfolio-app/static/js/main.9e77808a.js",
     "static/js/787.30237536.chunk.js": "/portfolio-app/static/js/787.30237536.chunk.js",
     "static/media/Youtube.png": "/portfolio-app/static/media/Youtube.39338db3148789c3ff45.png",
     "static/media/me.jpg": "/portfolio-app/static/media/me.5171e3df2458c394a381.jpg",
@@ -9,12 +9,12 @@
     "static/media/bachelorsProgram.png": "/portfolio-app/static/media/bachelorsProgram.11bdff9b8a78e7b99a94.png",
     "static/media/linkedin-logo.webp": "/portfolio-app/static/media/linkedin-logo.a1752771546ac17c99d4.webp",
     "index.html": "/portfolio-app/index.html",
-    "main.57cce18e.css.map": "/portfolio-app/static/css/main.57cce18e.css.map",
-    "main.2d2b1cbd.js.map": "/portfolio-app/static/js/main.2d2b1cbd.js.map",
+    "main.b7aa51b5.css.map": "/portfolio-app/static/css/main.b7aa51b5.css.map",
+    "main.9e77808a.js.map": "/portfolio-app/static/js/main.9e77808a.js.map",
     "787.30237536.chunk.js.map": "/portfolio-app/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57cce18e.css",
-    "static/js/main.2d2b1cbd.js"
+    "static/css/main.b7aa51b5.css",
+    "static/js/main.9e77808a.js"
   ]
 }
