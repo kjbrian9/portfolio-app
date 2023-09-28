@@ -116,7 +116,7 @@ body {
     padding: 1vw;
     border-radius: 3vw;
     box-shadow: 1px 1px 5px rgb(173, 173, 173);
-    margin: 2vw;
+    margin: 0vw;
     transition: transform 3s, box-shadow 3s;
   }
 

@@ -21,7 +21,11 @@
   width: 70%;
   justify-self: center;
 }
+.project-flex {
+  display: flex;
 
+  margin-top: 15vh;
+}
 @keyframes project-div-animation-appear {
   0% {
     opacity: 0;
@@ -42,11 +46,6 @@
   margin-top: 3vw;
   margin-left: 1vw;
   font-size: 1rem;
-}
-
-.project-page {
-  margin-top: 10vw;
-  display: flex;
 }
 
 .project-button:active {

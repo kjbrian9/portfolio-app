@@ -17,7 +17,7 @@ function Header() {
           <PageLinkButton Text="Projects" onClickFunction={() => scrollToTarget("projectsPage")}></PageLinkButton>
           <PageLinkButton
             Text="Contacts"
-            onClickFunction={() => scrollToTarget("")}
+            onClickFunction={() => scrollToTarget("contactsPage")}
             Class="contacts-button"
           ></PageLinkButton>
         </nav>

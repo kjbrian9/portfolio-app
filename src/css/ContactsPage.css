@@ -1,0 +1,57 @@
+.contacts-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-right: 20vw;
+  margin-top: 30vh;
+}
+
+.title-div {
+  border-bottom: 3px solid black;
+  width: 100%;
+  animation: color-vibrate-animation 3s infinite ease-out;
+  font-size: 3rem;
+  margin-bottom: 5vh;
+}
+
+@keyframes color-vibrate-animation {
+  0% {
+    color: black;
+  }
+  50% {
+    color: rgb(0, 119, 181);
+  }
+  100% {
+    color: black;
+  }
+}
+
+.email {
+  text-decoration: none;
+  color: black;
+  margin-top: 2vh;
+  font-size: 1.3rem;
+}
+
+.location {
+  font-size: 1.3rem;
+}
+
+.email:hover {
+  color: rgb(0, 119, 181);
+  text-decoration: underline;
+}
+
+.vertical-line {
+  border: 3px solid black;
+  height: 50vh;
+  border-radius: 30px;
+}
+@media (max-width: 760px) {
+  .contacts-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-right: 0vw;
+  }
+}
