@@ -4,6 +4,26 @@
   grid-template-columns: 1fr 1fr;
   place-content: center;
 }
+.about-me-title {
+  font-size: 3rem;
+  animation: color-vibrate-animation-b 20s infinite ease-out;
+  margin-bottom: 5vh;
+}
+
+@keyframes color-vibrate-animation-b {
+  0% {
+    color: black;
+  }
+  30% {
+    color: #5a1a58;
+  }
+  60% {
+    color: #c03131;
+  }
+  100% {
+    color: black;
+  }
+}
 
 .info-text {
   line-height: 1.3;

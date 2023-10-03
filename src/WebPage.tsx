@@ -61,9 +61,7 @@ function WebPage() {
       <Page>
         <div id="aboutMePage">
           <div className="about-me">
-            <Title textColor="black" fontSize="3rem">
-              About me
-            </Title>
+            <p className="about-me-title">About me</p>
           </div>
           <div className="about-me-div">
             <div>
@@ -194,7 +192,6 @@ function WebPage() {
               brian.julius.k@gmail.com
             </a>
           </div>
-          <div></div>
         </div>
       </Page>
     </>

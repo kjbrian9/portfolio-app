@@ -41,7 +41,7 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  margin: 4px;
+  margin: 4 px;
   width: 18vw;
   height: 18vw;
 }
@@ -90,6 +90,9 @@
 }
 
 @media (max-width: 660px) {
+  .goal-name-div {
+    margin-left: 0px;
+  }
   .name {
     font-size: 2rem;
     margin-bottom: 3vh;
@@ -109,11 +112,14 @@
   }
 
   .me-image {
-    margin-left: 20vw;
+    margin-left: 10vw;
     width: 50vw;
     height: 50vw;
     background: linear-gradient(#5a1a58 10%, #c03131 100%);
     border-radius: 50%;
     padding: 0.3vw;
+  }
+  .circle-transition {
+    display: none;
   }
 }
